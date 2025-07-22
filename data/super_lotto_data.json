@@ -1,5 +1,530 @@
 [
   {
+    "period": "25082",
+    "date": "2025-07-21",
+    "front_balls": [
+      2,
+      3,
+      4,
+      12,
+      26
+    ],
+    "back_balls": [
+      1,
+      8
+    ],
+    "first_prize_count": 0,
+    "first_prize_amount": 0,
+    "second_prize_count": 0,
+    "second_prize_amount": 0,
+    "sales_amount": 0,
+    "pool_amount": "1,735,099,174.42"
+  },
+  {
+    "period": "25081",
+    "date": "2025-07-19",
+    "front_balls": [
+      1,
+      4,
+      6,
+      15,
+      18
+    ],
+    "back_balls": [
+      2,
+      3
+    ],
+    "first_prize_count": 0,
+    "first_prize_amount": 0,
+    "second_prize_count": 0,
+    "second_prize_amount": 0,
+    "sales_amount": 0,
+    "pool_amount": "1,745,616,944.75"
+  },
+  {
+    "period": "25080",
+    "date": "2025-07-16",
+    "front_balls": [
+      9,
+      10,
+      18,
+      22,
+      24
+    ],
+    "back_balls": [
+      3,
+      12
+    ],
+    "first_prize_count": 0,
+    "first_prize_amount": 0,
+    "second_prize_count": 0,
+    "second_prize_amount": 0,
+    "sales_amount": 0,
+    "pool_amount": "1,723,670,049.40"
+  },
+  {
+    "period": "25079",
+    "date": "2025-07-14",
+    "front_balls": [
+      2,
+      14,
+      32,
+      34,
+      35
+    ],
+    "back_balls": [
+      5,
+      11
+    ],
+    "first_prize_count": 0,
+    "first_prize_amount": 0,
+    "second_prize_count": 0,
+    "second_prize_amount": 0,
+    "sales_amount": 0,
+    "pool_amount": "1,685,844,586.78"
+  },
+  {
+    "period": "25078",
+    "date": "2025-07-12",
+    "front_balls": [
+      7,
+      10,
+      15,
+      21,
+      24
+    ],
+    "back_balls": [
+      5,
+      6
+    ],
+    "first_prize_count": 0,
+    "first_prize_amount": 0,
+    "second_prize_count": 0,
+    "second_prize_amount": 0,
+    "sales_amount": 0,
+    "pool_amount": "1,653,989,426.98"
+  },
+  {
+    "period": "25077",
+    "date": "2025-07-09",
+    "front_balls": [
+      12,
+      14,
+      16,
+      19,
+      28
+    ],
+    "back_balls": [
+      1,
+      4
+    ],
+    "first_prize_count": 0,
+    "first_prize_amount": 0,
+    "second_prize_count": 0,
+    "second_prize_amount": 0,
+    "sales_amount": 0,
+    "pool_amount": "1,664,896,849.85"
+  },
+  {
+    "period": "25076",
+    "date": "2025-07-07",
+    "front_balls": [
+      11,
+      18,
+      22,
+      25,
+      29
+    ],
+    "back_balls": [
+      4,
+      12
+    ],
+    "first_prize_count": 0,
+    "first_prize_amount": 0,
+    "second_prize_count": 0,
+    "second_prize_amount": 0,
+    "sales_amount": 0,
+    "pool_amount": "1,612,133,474.72"
+  },
+  {
+    "period": "25075",
+    "date": "2025-07-05",
+    "front_balls": [
+      8,
+      12,
+      16,
+      19,
+      35
+    ],
+    "back_balls": [
+      6,
+      9
+    ],
+    "first_prize_count": 0,
+    "first_prize_amount": 0,
+    "second_prize_count": 0,
+    "second_prize_amount": 0,
+    "sales_amount": 0,
+    "pool_amount": "1,627,185,578.63"
+  },
+  {
+    "period": "25074",
+    "date": "2025-07-02",
+    "front_balls": [
+      2,
+      11,
+      15,
+      18,
+      21
+    ],
+    "back_balls": [
+      5,
+      10
+    ],
+    "first_prize_count": 0,
+    "first_prize_amount": 0,
+    "second_prize_count": 0,
+    "second_prize_amount": 0,
+    "sales_amount": 0,
+    "pool_amount": "1,661,629,014.25"
+  },
+  {
+    "period": "25073",
+    "date": "2025-06-30",
+    "front_balls": [
+      1,
+      4,
+      17,
+      33,
+      34
+    ],
+    "back_balls": [
+      3,
+      9
+    ],
+    "first_prize_count": 0,
+    "first_prize_amount": 0,
+    "second_prize_count": 0,
+    "second_prize_amount": 0,
+    "sales_amount": 0,
+    "pool_amount": "1,695,259,566.21"
+  },
+  {
+    "period": "25072",
+    "date": "2025-06-28",
+    "front_balls": [
+      4,
+      7,
+      15,
+      24,
+      29
+    ],
+    "back_balls": [
+      1,
+      4
+    ],
+    "first_prize_count": 0,
+    "first_prize_amount": 0,
+    "second_prize_count": 0,
+    "second_prize_amount": 0,
+    "sales_amount": 0,
+    "pool_amount": "1,739,661,640.72"
+  },
+  {
+    "period": "25071",
+    "date": "2025-06-25",
+    "front_balls": [
+      1,
+      8,
+      25,
+      31,
+      33
+    ],
+    "back_balls": [
+      5,
+      11
+    ],
+    "first_prize_count": 0,
+    "first_prize_amount": 0,
+    "second_prize_count": 0,
+    "second_prize_amount": 0,
+    "sales_amount": 0,
+    "pool_amount": "1,743,326,978.40"
+  },
+  {
+    "period": "25070",
+    "date": "2025-06-23",
+    "front_balls": [
+      8,
+      9,
+      15,
+      20,
+      22
+    ],
+    "back_balls": [
+      4,
+      12
+    ],
+    "first_prize_count": 0,
+    "first_prize_amount": 0,
+    "second_prize_count": 0,
+    "second_prize_amount": 0,
+    "sales_amount": 0,
+    "pool_amount": "1,718,532,211.45"
+  },
+  {
+    "period": "25069",
+    "date": "2025-06-21",
+    "front_balls": [
+      4,
+      6,
+      7,
+      33,
+      34
+    ],
+    "back_balls": [
+      9,
+      10
+    ],
+    "first_prize_count": 0,
+    "first_prize_amount": 0,
+    "second_prize_count": 0,
+    "second_prize_amount": 0,
+    "sales_amount": 0,
+    "pool_amount": "1,677,561,945.36"
+  },
+  {
+    "period": "25068",
+    "date": "2025-06-18",
+    "front_balls": [
+      1,
+      4,
+      17,
+      20,
+      22
+    ],
+    "back_balls": [
+      4,
+      10
+    ],
+    "first_prize_count": 0,
+    "first_prize_amount": 0,
+    "second_prize_count": 0,
+    "second_prize_amount": 0,
+    "sales_amount": 0,
+    "pool_amount": "1,628,402,089.96"
+  },
+  {
+    "period": "25067",
+    "date": "2025-06-16",
+    "front_balls": [
+      6,
+      10,
+      12,
+      21,
+      22
+    ],
+    "back_balls": [
+      1,
+      6
+    ],
+    "first_prize_count": 0,
+    "first_prize_amount": 0,
+    "second_prize_count": 0,
+    "second_prize_amount": 0,
+    "sales_amount": 0,
+    "pool_amount": "1,588,528,359.21"
+  },
+  {
+    "period": "25066",
+    "date": "2025-06-14",
+    "front_balls": [
+      15,
+      18,
+      27,
+      28,
+      34
+    ],
+    "back_balls": [
+      3,
+      6
+    ],
+    "first_prize_count": 0,
+    "first_prize_amount": 0,
+    "second_prize_count": 0,
+    "second_prize_amount": 0,
+    "sales_amount": 0,
+    "pool_amount": "1,579,075,869.30"
+  },
+  {
+    "period": "25065",
+    "date": "2025-06-11",
+    "front_balls": [
+      7,
+      25,
+      32,
+      33,
+      35
+    ],
+    "back_balls": [
+      4,
+      9
+    ],
+    "first_prize_count": 0,
+    "first_prize_amount": 0,
+    "second_prize_count": 0,
+    "second_prize_amount": 0,
+    "sales_amount": 0,
+    "pool_amount": "1,539,171,327.57"
+  },
+  {
+    "period": "25064",
+    "date": "2025-06-09",
+    "front_balls": [
+      5,
+      10,
+      18,
+      20,
+      34
+    ],
+    "back_balls": [
+      1,
+      8
+    ],
+    "first_prize_count": 0,
+    "first_prize_amount": 0,
+    "second_prize_count": 0,
+    "second_prize_amount": 0,
+    "sales_amount": 0,
+    "pool_amount": "1,534,694,449.82"
+  },
+  {
+    "period": "25063",
+    "date": "2025-06-07",
+    "front_balls": [
+      5,
+      18,
+      26,
+      29,
+      32
+    ],
+    "back_balls": [
+      7,
+      10
+    ],
+    "first_prize_count": 0,
+    "first_prize_amount": 0,
+    "second_prize_count": 0,
+    "second_prize_amount": 0,
+    "sales_amount": 0,
+    "pool_amount": "1,482,278,557.25"
+  },
+  {
+    "period": "25062",
+    "date": "2025-06-04",
+    "front_balls": [
+      14,
+      20,
+      27,
+      28,
+      29
+    ],
+    "back_balls": [
+      6,
+      10
+    ],
+    "first_prize_count": 0,
+    "first_prize_amount": 0,
+    "second_prize_count": 0,
+    "second_prize_amount": 0,
+    "sales_amount": 0,
+    "pool_amount": "1,525,360,041.11"
+  },
+  {
+    "period": "25061",
+    "date": "2025-06-02",
+    "front_balls": [
+      2,
+      11,
+      16,
+      23,
+      28
+    ],
+    "back_balls": [
+      5,
+      10
+    ],
+    "first_prize_count": 0,
+    "first_prize_amount": 0,
+    "second_prize_count": 0,
+    "second_prize_amount": 0,
+    "sales_amount": 0,
+    "pool_amount": "1,489,857,621.12"
+  },
+  {
+    "period": "25060",
+    "date": "2025-05-31",
+    "front_balls": [
+      12,
+      14,
+      19,
+      33,
+      34
+    ],
+    "back_balls": [
+      1,
+      7
+    ],
+    "first_prize_count": 0,
+    "first_prize_amount": 0,
+    "second_prize_count": 0,
+    "second_prize_amount": 0,
+    "sales_amount": 0,
+    "pool_amount": "1,530,054,632.82"
+  },
+  {
+    "period": "25059",
+    "date": "2025-05-28",
+    "front_balls": [
+      3,
+      9,
+      10,
+      11,
+      26
+    ],
+    "back_balls": [
+      1,
+      2
+    ],
+    "first_prize_count": 0,
+    "first_prize_amount": 0,
+    "second_prize_count": 0,
+    "second_prize_amount": 0,
+    "sales_amount": 0,
+    "pool_amount": "1,472,810,541.70"
+  },
+  {
+    "period": "25058",
+    "date": "2025-05-26",
+    "front_balls": [
+      6,
+      11,
+      15,
+      21,
+      23
+    ],
+    "back_balls": [
+      1,
+      7
+    ],
+    "first_prize_count": 0,
+    "first_prize_amount": 0,
+    "second_prize_count": 0,
+    "second_prize_amount": 0,
+    "sales_amount": 0,
+    "pool_amount": "1,457,374,217.14"
+  },
+  {
     "period": "25057",
     "date": "2025-05-24",
     "front_balls": [

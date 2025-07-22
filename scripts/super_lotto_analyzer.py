@@ -130,7 +130,13 @@ class SuperLottoAnalyzer:
         return dt.strftime('%Y年%m月%d日 %H:%M:%S')
     
     def get_max_pages(self):
-        """获取总页数，增强错误处理"""
+        """
+        获取大乐透数据的总页数。
+        - 通过API请求第一页数据，解析返回的总页数。
+        - 内置重试和反爬虫处理，遇到567/429/403等错误自动重试。
+        - 若多次失败，返回默认页数100。
+        :return: int，总页数
+        """
         print("正在获取总页数...")
         
         max_retries = 8  # 增加重试次数
@@ -226,7 +232,13 @@ class SuperLottoAnalyzer:
         return 100
     
     def fetch_lottery_data(self, max_pages=None):
-        """抓取大乐透数据，优先使用DrissionPage，失败时回退到requests"""
+        """
+        抓取大乐透历史开奖数据。
+        - 优先尝试使用DrissionPage浏览器模式（如可用），否则回退到requests模式。
+        - 支持指定最大页数，默认抓取全部数据。
+        :param max_pages: int，可选，最大抓取页数
+        :return: bool，抓取是否成功
+        """
         print("🎯 开始抓取大乐透数据...")
         
         # 优先尝试DrissionPage模式
@@ -245,7 +257,14 @@ class SuperLottoAnalyzer:
         return self.fetch_lottery_data_with_requests(max_pages)
     
     def fetch_lottery_data_with_requests(self, max_pages=None):
-        """使用requests抓取大乐透数据（原有方法重命名）"""
+        """
+        使用requests方式抓取大乐透历史开奖数据。
+        - 按页循环请求API，解析每期开奖号码、期号、开奖时间等。
+        - 自动处理网络异常、限流、反爬虫等问题。
+        - 数据解析后存入self.lottery_data。
+        :param max_pages: int，可选，最大抓取页数
+        :return: bool，抓取是否成功
+        """
         print("🎯 使用requests模式抓取大乐透数据...")
         
         if max_pages is None:
@@ -456,7 +475,12 @@ class SuperLottoAnalyzer:
             return 0
     
     def save_data(self, filename="data/super_lotto_data.json"):
-        """保存数据到文件"""
+        """
+        保存当前抓取的大乐透数据到本地JSON文件。
+        - 自动创建目标目录。
+        - 数据格式为list[dict]，每个dict为一期数据。
+        :param filename: str，保存文件路径
+        """
         # 确保目录存在
         os.makedirs(os.path.dirname(filename), exist_ok=True)
         with open(filename, 'w', encoding='utf-8') as f:
@@ -464,7 +488,12 @@ class SuperLottoAnalyzer:
         print(f"数据已保存到 {filename}")
     
     def load_data(self, filename="data/super_lotto_data.json"):
-        """从文件加载数据"""
+        """
+        从本地JSON文件加载大乐透历史数据。
+        - 读取后赋值到self.lottery_data。
+        :param filename: str，数据文件路径
+        :return: bool，加载是否成功
+        """
         try:
             with open(filename, 'r', encoding='utf-8') as f:
                 self.lottery_data = json.load(f)
@@ -475,7 +504,12 @@ class SuperLottoAnalyzer:
             return False
     
     def analyze_frequency(self):
-        """分析号码出现频率"""
+        """
+        分析大乐透号码出现频率。
+        - 统计前区（1-35）和后区（1-12）各号码在历史开奖中的出现次数。
+        - 输出频率排行榜。
+        :return: (Counter, Counter)，前区和后区的频率统计
+        """
         print("\n=== 号码频率分析 ===")
         
         # 前区和后区频率分析
@@ -505,7 +539,13 @@ class SuperLottoAnalyzer:
         return front_counter, back_counter
     
     def analyze_patterns(self):
-        """分析号码规律"""
+        """
+        分析大乐透号码规律。
+        - 前区奇偶分布：统计每种奇偶组合出现次数。
+        - 前区和值分布：统计号码总和的区间分布。
+        - 前区跨度分布：统计最大-最小号码的跨度区间。
+        - 输出各类统计结果。
+        """
         print("\n=== 号码规律分析 ===")
         
         # 奇偶分布分析（前区）
@@ -547,7 +587,12 @@ class SuperLottoAnalyzer:
             print(f"{span_range}: {count} 次 ({percentage:.1f}%)")
     
     def analyze_trends(self):
-        """分析走势"""
+        """
+        分析大乐透开奖号码走势。
+        - 展示最近10期开奖号码。
+        - 统计最近10期的热号（出现2次及以上）。
+        - 输出前区和后区的热号。
+        """
         print("\n=== 走势分析 ===")
         
         if len(self.lottery_data) < 10:
@@ -590,7 +635,14 @@ class SuperLottoAnalyzer:
             print("无")
     
     def generate_recommendations(self, num_sets=8):
-        """生成推荐号码（基于智能分析的动态推荐）"""
+        """
+        智能生成大乐透推荐号码组合。
+        - 基于历史频率、奇偶、和值、冷热等多维特征。
+        - 支持多种推荐策略（高频、均衡、冷热结合等）。
+        - 每组推荐包含前区5个、后区2个号码及特征说明。
+        :param num_sets: int，生成推荐组数
+        :return: list[dict]，每组推荐的详细信息
+        """
         print(f"\n=== 生成 {num_sets} 组推荐号码 ===")
         
         if not self.lottery_data:
@@ -919,7 +971,13 @@ class SuperLottoAnalyzer:
         print(rules)
     
     def generate_analysis_report(self, filename="reports/super_lotto_analysis_report.md"):
-        """生成完整的分析报告文件"""
+        """
+        生成大乐透数据分析Markdown报告。
+        - 汇总频率、规律、走势、推荐等分析结果。
+        - 自动插入免责声明、数据来源、使用说明等。
+        - 支持自定义报告保存路径。
+        :param filename: str，报告文件路径
+        """
         print(f"正在生成分析报告: {filename}")
         
         if not self.lottery_data:

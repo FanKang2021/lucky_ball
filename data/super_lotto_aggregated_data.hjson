@@ -8,11 +8,11 @@
     lottery_type: 大乐透
     lottery_type_en: super_lotto
     game_rules: 前区1-35选5个，后区1-12选2个
-    generated_time: 2025年05月25日 21:23:43
+    generated_time: 2025年07月22日 12:19:44
     timezone: UTC+8
-    total_periods: 2725
-    latest_period: "25057"
-    latest_date: 2025-05-24
+    total_periods: 2750
+    latest_period: "25082"
+    latest_date: 2025-07-21
     data_source: 国家体彩中心官方API
   }
   frequency_analysis:
@@ -28,188 +28,188 @@
       [
         {
           number: 1
-          count: 404
-          frequency: 14.83
+          count: 408
+          frequency: 14.84
         }
         {
           number: 2
-          count: 388
-          frequency: 14.24
+          count: 392
+          frequency: 14.25
         }
         {
           number: 3
-          count: 399
-          frequency: 14.64
+          count: 401
+          frequency: 14.58
         }
         {
           number: 4
-          count: 352
-          frequency: 12.92
+          count: 358
+          frequency: 13.02
         }
         {
           number: 5
-          count: 400
-          frequency: 14.68
+          count: 402
+          frequency: 14.62
         }
         {
           number: 6
-          count: 382
-          frequency: 14.02
+          count: 386
+          frequency: 14.04
         }
         {
           number: 7
-          count: 407
-          frequency: 14.94
+          count: 411
+          frequency: 14.95
         }
         {
           number: 8
-          count: 363
-          frequency: 13.32
+          count: 366
+          frequency: 13.31
         }
         {
           number: 9
-          count: 359
-          frequency: 13.17
+          count: 362
+          frequency: 13.16
         }
         {
           number: 10
-          count: 372
-          frequency: 13.65
+          count: 377
+          frequency: 13.71
         }
         {
           number: 11
-          count: 394
-          frequency: 14.46
+          count: 399
+          frequency: 14.51
         }
         {
           number: 12
-          count: 361
-          frequency: 13.25
+          count: 366
+          frequency: 13.31
         }
         {
           number: 13
           count: 355
-          frequency: 13.03
+          frequency: 12.91
         }
         {
           number: 14
-          count: 361
-          frequency: 13.25
+          count: 365
+          frequency: 13.27
         }
         {
           number: 15
-          count: 351
-          frequency: 12.88
+          count: 358
+          frequency: 13.02
         }
         {
           number: 16
-          count: 329
+          count: 332
           frequency: 12.07
         }
         {
           number: 17
-          count: 366
-          frequency: 13.43
+          count: 368
+          frequency: 13.38
         }
         {
           number: 18
-          count: 366
-          frequency: 13.43
+          count: 373
+          frequency: 13.56
         }
         {
           number: 19
-          count: 401
-          frequency: 14.72
+          count: 404
+          frequency: 14.69
         }
         {
           number: 20
-          count: 389
-          frequency: 14.28
+          count: 393
+          frequency: 14.29
         }
         {
           number: 21
-          count: 364
-          frequency: 13.36
+          count: 368
+          frequency: 13.38
         }
         {
           number: 22
-          count: 425
-          frequency: 15.6
+          count: 430
+          frequency: 15.64
         }
         {
           number: 23
-          count: 379
-          frequency: 13.91
+          count: 381
+          frequency: 13.85
         }
         {
           number: 24
-          count: 347
+          count: 350
           frequency: 12.73
         }
         {
           number: 25
-          count: 390
-          frequency: 14.31
+          count: 393
+          frequency: 14.29
         }
         {
           number: 26
-          count: 370
-          frequency: 13.58
+          count: 373
+          frequency: 13.56
         }
         {
           number: 27
-          count: 379
-          frequency: 13.91
+          count: 381
+          frequency: 13.85
         }
         {
           number: 28
-          count: 374
-          frequency: 13.72
+          count: 378
+          frequency: 13.75
         }
         {
           number: 29
-          count: 470
-          frequency: 17.25
+          count: 474
+          frequency: 17.24
         }
         {
           number: 30
           count: 449
-          frequency: 16.48
+          frequency: 16.33
         }
         {
           number: 31
-          count: 409
-          frequency: 15.01
+          count: 410
+          frequency: 14.91
         }
         {
           number: 32
-          count: 440
-          frequency: 16.15
+          count: 443
+          frequency: 16.11
         }
         {
           number: 33
-          count: 456
-          frequency: 16.73
+          count: 461
+          frequency: 16.76
         }
         {
           number: 34
-          count: 418
-          frequency: 15.34
+          count: 424
+          frequency: 15.42
         }
         {
           number: 35
-          count: 456
-          frequency: 16.73
+          count: 459
+          frequency: 16.69
         }
       ]
       "// 统计摘要": 前区频率分析的关键指标
       summary:
       {
         highest_freq_number: 29
-        highest_freq_count: 470
+        highest_freq_count: 474
         lowest_freq_number: 16
-        lowest_freq_count: 329
-        average_frequency: 389.29
+        lowest_freq_count: 332
+        average_frequency: 392.86
       }
     }
     back_balls:
@@ -220,73 +220,73 @@
       [
         {
           number: 1
-          count: 428
-          frequency: 15.71
+          count: 436
+          frequency: 15.85
         }
         {
           number: 2
-          count: 453
-          frequency: 16.62
+          count: 455
+          frequency: 16.55
         }
         {
           number: 3
-          count: 451
+          count: 455
           frequency: 16.55
         }
         {
           number: 4
-          count: 435
-          frequency: 15.96
+          count: 441
+          frequency: 16.04
         }
         {
           number: 5
-          count: 468
-          frequency: 17.17
+          count: 473
+          frequency: 17.2
         }
         {
           number: 6
-          count: 443
-          frequency: 16.26
+          count: 448
+          frequency: 16.29
         }
         {
           number: 7
-          count: 485
-          frequency: 17.8
+          count: 488
+          frequency: 17.75
         }
         {
           number: 8
-          count: 425
-          frequency: 15.6
+          count: 427
+          frequency: 15.53
         }
         {
           number: 9
-          count: 454
-          frequency: 16.66
+          count: 458
+          frequency: 16.65
         }
         {
           number: 10
-          count: 487
-          frequency: 17.87
+          count: 493
+          frequency: 17.93
         }
         {
           number: 11
-          count: 456
-          frequency: 16.73
+          count: 458
+          frequency: 16.65
         }
         {
           number: 12
-          count: 465
-          frequency: 17.06
+          count: 468
+          frequency: 17.02
         }
       ]
       "// 统计摘要": 后区频率分析的关键指标
       summary:
       {
         highest_freq_number: 10
-        highest_freq_count: 487
+        highest_freq_count: 493
         lowest_freq_number: 8
-        lowest_freq_count: 425
-        average_frequency: 454.17
+        lowest_freq_count: 427
+        average_frequency: 458.33
       }
     }
   }
@@ -302,14 +302,14 @@
       "// 图表类型": 饼图或柱状图展示各种奇偶组合的出现频率
       data:
       {
-        3奇2偶: 998
-        2奇3偶: 829
-        1奇4偶: 335
-        4奇1偶: 443
+        1奇4偶: 341
+        2奇3偶: 839
+        3奇2偶: 1004
+        4奇1偶: 446
         5奇0偶: 76
         0奇5偶: 44
       }
-      total_periods: 2725
+      total_periods: 2750
     }
     sum_distribution:
     {
@@ -318,23 +318,23 @@
       "// 分析意义": 帮助识别号码组合的和值趋势
       data:
       {
-        70-79: 337
-        110-119: 316
-        100-109: 376
-        80-89: 464
-        120-129: 178
-        50-59: 148
-        90-99: 478
-        60-69: 222
-        130-139: 92
-        40-49: 57
+        40-49: 59
+        80-89: 470
+        110-119: 320
+        70-79: 342
+        100-109: 377
+        90-99: 480
+        60-69: 224
+        120-129: 179
+        130-139: 93
+        50-59: 149
         30-39: 16
         20-29: 1
         140-149: 32
         150-159: 4
         160-169: 4
       }
-      total_periods: 2725
+      total_periods: 2750
     }
     span_distribution:
     {
@@ -343,14 +343,14 @@
       "// 分析意义": 反映号码选择的分散程度
       data:
       {
-        20-24: 680
-        25-29: 862
-        15-19: 395
-        30-34: 576
-        10-14: 181
+        20-24: 684
+        15-19: 405
+        30-34: 580
+        25-29: 868
+        10-14: 182
         5-9: 31
       }
-      total_periods: 2725
+      total_periods: 2750
     }
   }
   trend_analysis:
@@ -362,173 +362,173 @@
     recent_draws:
     [
       {
-        period: "25057"
-        date: 2025-05-24
+        period: "25082"
+        date: 2025-07-21
+        front_balls:
+        [
+          2
+          3
+          4
+          12
+          26
+        ]
+        back_balls:
+        [
+          1
+          8
+        ]
+      }
+      {
+        period: "25081"
+        date: 2025-07-19
+        front_balls:
+        [
+          1
+          4
+          6
+          15
+          18
+        ]
+        back_balls:
+        [
+          2
+          3
+        ]
+      }
+      {
+        period: "25080"
+        date: 2025-07-16
         front_balls:
         [
           9
           10
-          11
-          12
-          29
+          18
+          22
+          24
         ]
         back_balls:
-        [
-          1
-          10
-        ]
-      }
-      {
-        period: "25056"
-        date: 2025-05-21
-        front_balls:
-        [
-          12
-          15
-          28
-          29
-          32
-        ]
-        back_balls:
-        [
-          8
-          11
-        ]
-      }
-      {
-        period: "25055"
-        date: 2025-05-19
-        front_balls:
-        [
-          8
-          10
-          25
-          29
-          30
-        ]
-        back_balls:
-        [
-          1
-          2
-        ]
-      }
-      {
-        period: "25054"
-        date: 2025-05-17
-        front_balls:
         [
           3
           12
-          16
-          21
-          29
-        ]
-        back_balls:
-        [
-          1
-          2
         ]
       }
       {
-        period: "25053"
-        date: 2025-05-14
+        period: "25079"
+        date: 2025-07-14
         front_balls:
         [
+          2
           14
-          23
-          29
-          30
-          33
-        ]
-        back_balls:
-        [
-          6
-          12
-        ]
-      }
-      {
-        period: "25052"
-        date: 2025-05-12
-        front_balls:
-        [
-          2
-          4
-          11
-          29
-          30
-        ]
-        back_balls:
-        [
-          2
-          8
-        ]
-      }
-      {
-        period: "25051"
-        date: 2025-05-10
-        front_balls:
-        [
-          2
-          4
-          13
-          29
-          31
+          32
+          34
+          35
         ]
         back_balls:
         [
           5
-          12
+          11
         ]
       }
       {
-        period: "25050"
-        date: 2025-05-07
+        period: "25078"
+        date: 2025-07-12
         front_balls:
         [
+          7
+          10
           15
-          18
-          20
           21
-          34
+          24
+        ]
+        back_balls:
+        [
+          5
+          6
+        ]
+      }
+      {
+        period: "25077"
+        date: 2025-07-09
+        front_balls:
+        [
+          12
+          14
+          16
+          19
+          28
+        ]
+        back_balls:
+        [
+          1
+          4
+        ]
+      }
+      {
+        period: "25076"
+        date: 2025-07-07
+        front_balls:
+        [
+          11
+          18
+          22
+          25
+          29
         ]
         back_balls:
         [
           4
-          10
+          12
         ]
       }
       {
-        period: "25049"
-        date: 2025-05-05
+        period: "25075"
+        date: 2025-07-05
         front_balls:
         [
-          9
-          20
-          22
-          29
-          34
-        ]
-        back_balls:
-        [
-          3
           8
-        ]
-      }
-      {
-        period: "25048"
-        date: 2025-05-03
-        front_balls:
-        [
-          2
-          6
-          17
-          23
+          12
+          16
+          19
           35
         ]
         back_balls:
         [
           6
+          9
+        ]
+      }
+      {
+        period: "25074"
+        date: 2025-07-02
+        front_balls:
+        [
+          2
           11
+          15
+          18
+          21
+        ]
+        back_balls:
+        [
+          5
+          10
+        ]
+      }
+      {
+        period: "25073"
+        date: 2025-06-30
+        front_balls:
+        [
+          1
+          4
+          17
+          33
+          34
+        ]
+        back_balls:
+        [
+          3
+          9
         ]
       }
     ]
@@ -538,28 +538,31 @@
       "// 图表类型": 标记图或高亮显示热号在走势图中的位置
       front_hot_numbers:
       [
+        1
         2
         4
-        9
         10
         11
         12
+        14
         15
-        20
+        16
+        18
+        19
         21
-        23
-        29
-        30
+        22
+        24
         34
+        35
       ]
       back_hot_numbers:
       [
         1
-        2
+        3
+        4
+        5
         6
-        8
-        10
-        11
+        9
         12
       ]
     }
@@ -601,8 +604,8 @@
         front_balls:
         [
           10
-          17
-          27
+          21
+          23
           33
           35
         ]
@@ -646,11 +649,11 @@
         description: 热号与冷号结合的对冲组合
         front_balls:
         [
-          7
           16
           24
           25
           29
+          31
         ]
         back_balls:
         [
@@ -660,8 +663,8 @@
         characteristics:
         {
           odd_even_ratio: 3奇2偶
-          sum_value: 101
-          span_value: 22
+          sum_value: 125
+          span_value: 15
         }
       }
       {
@@ -670,8 +673,8 @@
         front_balls:
         [
           5
+          7
           30
-          31
           32
           34
         ]
@@ -683,7 +686,7 @@
         characteristics:
         {
           odd_even_ratio: 2奇3偶
-          sum_value: 132
+          sum_value: 108
           span_value: 29
         }
       }
@@ -692,8 +695,8 @@
         description: 低频号码的反向思维组合
         front_balls:
         [
-          8
           11
+          12
           14
           20
           22
@@ -706,8 +709,8 @@
         characteristics:
         {
           odd_even_ratio: 1奇4偶
-          sum_value: 75
-          span_value: 14
+          sum_value: 79
+          span_value: 11
         }
       }
       {
@@ -716,7 +719,7 @@
         front_balls:
         [
           2
-          15
+          13
           26
           33
           34
@@ -729,7 +732,7 @@
         characteristics:
         {
           odd_even_ratio: 2奇3偶
-          sum_value: 110
+          sum_value: 108
           span_value: 32
         }
       }
@@ -740,9 +743,9 @@
         [
           1
           5
+          7
           18
           28
-          31
         ]
         back_balls:
         [
@@ -752,8 +755,8 @@
         characteristics:
         {
           odd_even_ratio: 3奇2偶
-          sum_value: 83
-          span_value: 30
+          sum_value: 59
+          span_value: 27
         }
       }
     ]
