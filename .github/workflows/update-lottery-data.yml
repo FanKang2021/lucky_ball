@@ -94,6 +94,7 @@ jobs:
         [ -d "data" ] && git add data/ || echo "data目录不存在"
         [ -d "reports" ] && git add reports/ || echo "reports目录不存在"  
         [ -d "pics" ] && git add pics/ || echo "pics目录不存在"
+        [ -f "README.md" ] && git add README.md || echo "README.md不存在"
         
         # 检查是否有文件被添加
         if git diff --cached --quiet; then
